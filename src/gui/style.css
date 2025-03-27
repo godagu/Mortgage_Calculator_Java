@@ -1,0 +1,106 @@
+.root{
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-font-family: "Avenir";
+    -fx-background-color: #7c96aa;
+    -fx-alignment: center;
+}
+
+.text-field{
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0.5;
+    -fx-padding: 10;
+    -fx-background-color: #a1acb1;
+    -fx-alignment: center;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-prompt-text-fill: #7099b1;
+
+}
+
+.label{
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #576f82;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.calculate-button {
+    -fx-alignment: center;
+    -fx-min-height: 50px;
+    -fx-font-size: 20px;
+    -fx-min-width: 135px;
+    -fx-font-weight: bold;
+    -fx-background-color: #364a55; /* You can choose the color */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+
+.button:hover {
+    -fx-background-color: #3e5a6d;
+}
+
+/* Combo Box */
+.combo-box {
+    -fx-background-color: #a1acb1;
+    -fx-border-radius: 15px;
+    -fx-padding: 10;
+    -fx-border-color: #ffffff;
+    -fx-background-radius: 15px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #576f82;
+    -fx-border-radius: 15px;
+
+}
+
+/* Tabs */
+
+.tab {
+    -fx-background-color: #a1acb1;
+    -fx-border-color: #3e3e22;
+    -fx-text-base-color: white;
+    -fx-padding: 10px;
+    -fx-label-padding: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+
+}
+
+.tab:selected {
+    -fx-background-color: #3e5a6d;
+    -fx-text-fill: white;
+}
+
+/* Graphs */
+.chart {
+    -fx-background-color: #7c96aa;
+}
+
+.chart-legend-item {
+    -fx-text-fill: #111145;
+}
+
+.chart-axis {
+    -fx-stroke: #3e3e22;
+    -fx-tick-label-fill: white;
+}
+
+.tooltip {
+    -fx-background-color: #576f82;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
